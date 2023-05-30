@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(5, 5, 5, 0.94);
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#geral {
+  max-width: 400px;
+  min-width: 260px;
+  margin: 60px auto;
+
+  padding: 20px;
+  background-color: rgba(70, 70, 70, 0.294);
+  border-radius: 20px;
+}
+
+/* PERFIL */
+#perfil {
+  text-align: center;
+}
+
+#perfil img {
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+#perfil p {
+  color: white;
+  font-weight: 500px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#perfil p.sobremim {
+  color: white;
+  text-align: justify;
+  font-size: 1em;
+  text-indent: 20px;
+  line-height: 25px;
+
+  margin-top: 30px;
+}
+
+/* LINKS */
+ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-top: 50px;
+}
+
+li a {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgba(150, 148, 148, 0.186);
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+
+  transition: all 0.4s;
+}
+
+li a:hover {
+  background-color: rgba(255, 255, 255, 0.447);
+  color: black;
+}
+
+/* ICONS */
+#icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+ion-icon {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+ion-icon:hover {
+  color: black;
+  background-color: white;
+}
+
+/* FOOTER */
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: -20px;
+}
